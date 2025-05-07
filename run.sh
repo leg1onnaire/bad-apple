@@ -11,7 +11,7 @@ fi
 if [ ! -d "frames" ] || [ -z "$(ls -A frames)" ]; then
     echo "[+] Frames extracting (ffmpeg)..."
     mkdir -p frames
-    ffmpeg -i bad_apple.mp4 -vf scale=120:60 -r 15 frames/frame_%04d.png
+    ffmpeg -i bad_apple.mp4 -vf scale=200:50 -r 15 frames/frame_%04d.png
 fi
 
 if [ ! -f "bad_apple.mp3" ]; then
