@@ -21,7 +21,7 @@ fi
 
 printf '\e[8;67;240t'
 
-echo "[+] Starting..."
+echo "[+] Starting 【東方】Bad Apple!! ＰＶ【影絵】..."
 ./ascii_player
 
 killall -q mpg123
