@@ -9,7 +9,7 @@
 
 namespace fs = std::filesystem;
 
-const std::string ASCII_CHARS = "@%#*+=-:. ";  // dark to light
+const std::string ASCII_CHARS = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/*tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
 
 char pixelToAscii(int brightness) {
     int index = brightness * (ASCII_CHARS.size() - 1) / 255;
